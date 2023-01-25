@@ -1,3 +1,26 @@
+# The journry to learn Git and Github.
+### Prerequisites
+- Installation of Git and Vscode
+
+
+    > Please search the web for instructions with respect to the installation of tools mentioned.
+
+    Git: https://git-scm.com/
+
+    VScode: https://code.visualstudio.com/
+
+- The proxy configuration of git
+  
+  If your proxy agent is clashX(the default port is 7890 or xray 1089) and you have already checked for the port on which the proxy process is runing.
+    
+    > you can type this command in the terminal you use and replace the port with the actual port number
+    ``` shell
+    git config --global http.proxy http://127.0.0.1:port 
+    ```
+
+
+
+### The main theory of Git
 Version control systems (VCSs) are tools used to track changes to source code (or other collections of files and folders). As the name implies, these tools help maintain a history of changes; furthermore, they facilitate collaboration. VCSs track changes to a folder and its contents in a series of snapshots, where each snapshot encapsulates the entire state of files/folders within a top-level directory. VCSs also maintain metadata like who created each snapshot, messages associated with each snapshot, and so on.
 
 Why is version control useful? Even when you’re working by yourself, it can let you look at old snapshots of a project, keep a log of why certain changes were made, work on parallel branches of development, and much more. When working with others, it’s an invaluable tool for seeing what other people have changed, as well as resolving conflicts in concurrent development.
