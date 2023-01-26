@@ -18,6 +18,13 @@
     git config --global http.proxy http://127.0.0.1:port 
     ```
 
+首先是生成密钥对
+然后是在github添加公钥
+最后在本地激活私钥
+
+对文件进行修改看是否能够提交
+
+
 
 
 ### The main theory of Git
